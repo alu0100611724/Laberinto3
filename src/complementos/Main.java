@@ -8,6 +8,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		
 		JuegoDelLaberinto fabricaLab = new JuegoDelLaberintoEncantado();
 		System.out.println("\nHogwarts Maze\n");
 		Laberinto hogwarts = fabricaLab.crearLaberinto();
